@@ -10,7 +10,7 @@ let password4 = "ajaffg_vAAdghAERG" // false - maximum value error
 let passwordpattern = /^[a-zA-Z0-9\._\-@]{8,16}$/;
 
 
-console.log(`---------------password validation pattern---`);
+console.log(`---------------004 password validation pattern---`);
 console.log(passwordpattern.test(password1));
 console.log(passwordpattern.test(password2));
 console.log(passwordpattern.test(password3));

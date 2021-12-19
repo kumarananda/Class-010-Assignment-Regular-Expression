@@ -14,7 +14,7 @@ let emailpattern = /^([^\.\-\+\!\`\\\/\,\?@&()_\     \*\[\]\^A-Z]{1}[a-z0-9_\.]{
 // let emailpattern = /^[a-z0-9-_\.]*@[a-z0-9-]*\.[a-z]{2,15}$/;
 
 
-console.log(`---------------email pattern---`);
+console.log(`---------------001 email pattern---`);
 console.log(emailpattern.test(email1));
 console.log(emailpattern.test(email2));
 console.log(emailpattern.test(email3));

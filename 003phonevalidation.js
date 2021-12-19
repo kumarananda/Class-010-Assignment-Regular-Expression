@@ -1,4 +1,4 @@
-console.log(`---------------phone validation pattern---`);
+console.log(`---------------003 phone validation pattern---`);
 console.log(`phonevalid pattern 1 `);
 
 let phone1 = "01913918163" //true
