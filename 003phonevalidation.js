@@ -10,11 +10,19 @@ let phone5 = "+81019139181630" // false - error country code
 
 let phonevalid = /^(01|\+8801|8801)[0-9]{9}$/;
 
-
+console.log(`no. ${phone1} is ${phonevalid.test(phone1)}`);
 console.log(phonevalid.test(phone1));
+
+console.log(`no. ${phone2} is ${phonevalid.test(phone2)}`);
 console.log(phonevalid.test(phone2));
+
+console.log(`no. ${phone3} is ${phonevalid.test(phone3)} `);
 console.log(phonevalid.test(phone3));
+
+console.log(`no. ${phone4} is ${phonevalid.test(phone4)} for add a extra number`);
 console.log(phonevalid.test(phone4));
+
+console.log(`no. ${phone5} is ${phonevalid.test(phone5)} for error country code`);
 console.log(phonevalid.test(phone5));
 
 

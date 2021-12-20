@@ -6,7 +6,6 @@ let password4 = "ajaffg_vAAdghAERG" // false - maximum value error
 
 
 
-
 let passwordpattern = /^[a-zA-Z0-9\._#\-@]{8,16}$/;
 
 

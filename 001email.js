@@ -10,6 +10,7 @@ let erroremail3 = "@ananda.saha484@gmail.com";
 
 
 
+
 let emailpattern = /^([^\.\-\+\!\`\\\/\,\?@&()_\     \*\[\]\^A-Z]{1}[a-z0-9_\.]{3,30})@[a-z0-9\-\.]{2,30}\.[a-z]{2,5}$/;
 // let emailpattern = /^[a-z0-9-_\.]*@[a-z0-9-]*\.[a-z]{2,15}$/;
 
