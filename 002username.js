@@ -7,7 +7,7 @@ let user3 = "anandakumarsaha";  // false - maximum Characters error
 let user4 = "Anandakum";  // false - uppercase error
 
 
-let username = /^[a-z0-9_-#@]{6,12}$/;
+let username = /^[a-z0-9_#@\-]{6,12}$/;
 
 console.log(`---------------002 username pattern---`);
 
